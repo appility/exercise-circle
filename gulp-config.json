@@ -1,0 +1,9 @@
+{
+  "path" : {
+    "src" : [
+      "dev/desktop/js/**/*.js",
+      "!dev/desktop/js/vendor/**"
+    ],
+    "dest" : "build/js"
+  }
+}
