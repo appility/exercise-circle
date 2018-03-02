@@ -1,7 +1,6 @@
 var config = require('./gulp-config.json');
 var gulp   = require('gulp');
 var $      = require('gulp-load-plugins')();
-var pug    = require('gulp-pug');
 var uglify = require('gulp-uglify');
 var responsive = require('gulp-responsive');
 var webserver = require('gulp-webserver');
