@@ -29,7 +29,7 @@ gulp.task('compress', function() {
     .pipe(gulp.dest('build/js'));
 });
 
-// Starts a test server, which you can view at http://localhost:8079
+// Starts a test server, which you can view at http://localhost:8888
 gulp.task('server', ['default'], function () {
     gulp.src('./public')
             .pipe($.webserver({
